@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Back-end-com-.NET-e-IA/1.0.0": {
+        "runtime": {
+          "Back-end-com-.NET-e-IA.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Back-end-com-.NET-e-IA/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

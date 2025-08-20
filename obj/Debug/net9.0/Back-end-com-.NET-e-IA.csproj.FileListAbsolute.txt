@@ -1,0 +1,15 @@
+C:\Users\Fabiola\Documents\Back-end-com-.NET-e-IA\bin\Debug\net9.0\Back-end-com-.NET-e-IA.exe
+C:\Users\Fabiola\Documents\Back-end-com-.NET-e-IA\bin\Debug\net9.0\Back-end-com-.NET-e-IA.deps.json
+C:\Users\Fabiola\Documents\Back-end-com-.NET-e-IA\bin\Debug\net9.0\Back-end-com-.NET-e-IA.runtimeconfig.json
+C:\Users\Fabiola\Documents\Back-end-com-.NET-e-IA\bin\Debug\net9.0\Back-end-com-.NET-e-IA.dll
+C:\Users\Fabiola\Documents\Back-end-com-.NET-e-IA\bin\Debug\net9.0\Back-end-com-.NET-e-IA.pdb
+C:\Users\Fabiola\Documents\Back-end-com-.NET-e-IA\obj\Debug\net9.0\Back-end-com-.NET-e-IA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fabiola\Documents\Back-end-com-.NET-e-IA\obj\Debug\net9.0\Back-end-com-.NET-e-IA.AssemblyInfoInputs.cache
+C:\Users\Fabiola\Documents\Back-end-com-.NET-e-IA\obj\Debug\net9.0\Back-end-com-.NET-e-IA.AssemblyInfo.cs
+C:\Users\Fabiola\Documents\Back-end-com-.NET-e-IA\obj\Debug\net9.0\Back-end-com-.NET-e-IA.csproj.CoreCompileInputs.cache
+C:\Users\Fabiola\Documents\Back-end-com-.NET-e-IA\obj\Debug\net9.0\Back-end-com-.NET-e-IA.sourcelink.json
+C:\Users\Fabiola\Documents\Back-end-com-.NET-e-IA\obj\Debug\net9.0\Back-end-com-.NET-e-IA.dll
+C:\Users\Fabiola\Documents\Back-end-com-.NET-e-IA\obj\Debug\net9.0\refint\Back-end-com-.NET-e-IA.dll
+C:\Users\Fabiola\Documents\Back-end-com-.NET-e-IA\obj\Debug\net9.0\Back-end-com-.NET-e-IA.pdb
+C:\Users\Fabiola\Documents\Back-end-com-.NET-e-IA\obj\Debug\net9.0\Back-end-com-.NET-e-IA.genruntimeconfig.cache
+C:\Users\Fabiola\Documents\Back-end-com-.NET-e-IA\obj\Debug\net9.0\ref\Back-end-com-.NET-e-IA.dll
