@@ -214,6 +214,91 @@ Console.WriteLine(numeroDecremento);
 Console.WriteLine("Decrementando o 20");
 numeroDecremento--;
 Console.WriteLine(numeroDecremento);
-*/
 
 calc.RaizQuadrada(9);
+
+
+// laço de repetição
+
+// FOR, recebe 3 blocos, a declaração da variável, a condição, e um incremento
+// WHILE, mais simples que o for, pois, só recebe 1 condição, ATENÇÃO vc precisa colocar alguma quebra, senão o while ficará em looping
+// DO WHILE, a verificação é no final do código
+
+/*
+// FOR ele repete um pedaço de codigo
+int numero = 10;
+// inicio, no meio fica onde eu quero que seja false, e por ultimo a ação
+for (int contador = 0; contador <= 10; contador++)
+{
+    Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+}
+
+
+
+// WHILE, recebe apenas a condição
+int numero = 5;
+int contador = 0;
+
+while (contador <= 10)
+{
+    Console.WriteLine($"{contador + 1} Execução: {numero} * {contador} = {numero * contador}");
+    contador++;
+}
+
+
+// aqui não duas variaveis declaradas, soma e numero e ambas são int
+int soma = 0, numero = 0;
+
+do
+{
+    Console.WriteLine("Digite um número (0 para)");
+    numero = Convert.ToInt32(Console.ReadLine());
+
+    soma += numero;
+
+} while (numero != 0); 
+//ate o while ser true ele executa o do
+Console.WriteLine($"Total da soma dos números digitados é: {soma}");
+*/
+
+string opcao;
+bool exibirMenu = true;
+
+while (exibirMenu)
+{
+    //Console.Clear();
+    Console.WriteLine("Digite a sua opção");
+    Console.WriteLine("1 - Cadastrar cliente");
+    Console.WriteLine("2 - Buscar cliente");
+    Console.WriteLine("3 - Apagar cliente");
+    Console.WriteLine("4 - Encerrar");
+
+    opcao = Console.ReadLine();
+
+    switch (opcao)
+    {
+        case "1":
+            Console.WriteLine("Cadastro de cliente");
+            break;
+
+        case "2":
+            Console.WriteLine("Busca de cliente");
+            break;
+
+        case "3":
+            Console.WriteLine("Apagar cliente");
+            break;
+
+        case "4":
+            Console.WriteLine("Encerrar");
+            exibirMenu = false;
+            //Environment.Exit(0);
+            break;
+
+        default:
+            Console.WriteLine("Opção inválida");
+            break;
+    }
+}
+
+Console.WriteLine("O programa se encerrou"); 
