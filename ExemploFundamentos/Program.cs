@@ -1,11 +1,74 @@
-﻿using ExemploFundamentos.Commom.Models;
+﻿using System.Diagnostics.Contracts;
+using ExemploFundamentos.Commom.Models;
 
+//LISTAS E arrays
+//ARRAY TEM TAMANHO FIXO, LISTA NÃO, lista se redimensiona conforme vc , prefira mais listas
+
+//LISTAS
+//Lista é uma extensão de um array, ela tem mais metodos como .Add e etc 
+//vc não passa o valor maximo de cadeiras dela
+Console.WriteLine("LISTAS");
+List<string> listaString = new List<string>();
+listaString.Add("SP");
+listaString.Add("RJ");
+listaString.Add("AC");
+
+Console.WriteLine("Percorrendo a lista com o FOR");
+for (int contador = 0; contador < listaString.Count; contador++)
+{
+    Console.WriteLine($"Posição Nº {contador} - {listaString[contador]}");
+}
+
+Console.WriteLine("Percorrendo a lista com o FOREACH");
+int contadorForeach = 0;
+foreach (string item in listaString)
+{
+    Console.WriteLine($"Posição Nº {contadorForeach} - {item}");
+    contadorForeach++;
+}
+
+/*
+int [] arrayInteiros = new int[3];
+arrayInteiros[0] = 72;
+arrayInteiros[1] = 12;
+arrayInteiros[2] = 22;
+
+//outra forma de redimensionar mas copiando o array, aqui ele copia tudo 
+int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length)
+*/
+
+/*
+// resize redimensiona, aumenta as cadeiras do array, lembre-se um array nasce e morre com essa capacidade, por isso o resize ajuda
+Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+
+
+Console.WriteLine("Percorrendo o array com o FOR");
+for (int contador = 0; contador < arrayInteiros.Length; contador++)
+{
+    Console.WriteLine($"Posição Nº {contador} - {arrayInteiros[contador]}");
+}
+*/
+
+/*
+Console.WriteLine("Percorrendo o array com o FOREACH");
+// foreach quer dizer "para cada", aqui estou dizendo que para cada item dentro do arrayInteiros eu to armazenando ele na variavel valor
+// ojo, a variavel valor tem que ser do tipo dos itens do array
+int contadorForeach = 0;
+foreach (int valor in arrayInteiros)
+{
+    Console.WriteLine($"Posição Nº {contadorForeach} - {valor}");
+    contadorForeach++;
+} 
+*/
+
+/*
 Pessoa pessoa1 = new Pessoa();
 pessoa1.Nome = "Fa";
 pessoa1.Idade = 20;
 pessoa1.Apresentar();
 
-/*
+
 // o using ajuda a dar o caminho de onde esta a classe
 using Back_end_com_.NET_e_IA.Models;
 Pessoa pessoa1 = new Pessoa();

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 
+
 namespace ExemploFundamentos.Commom.Models
 
 // inicio da classe calculadora
